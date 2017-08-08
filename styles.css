@@ -1,16 +1,37 @@
 
-h1 {
-	text-align: center;
-}
+h1 
+{
+  font-family : Trebuchet MS;
+  font-size : 80px;
+  color : #84D9FE;
+  color : rgb(132, 217, 254);
+  text-align: center;
+  background-image: url(About.png);
+  text-indent: 40px;
+  }
+
+
 
 
 p {
     text-align: center;
-}
+    font-family : Trebuchet MS;
+  }
+  
+div {  
+      background-image: url(Background.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      text-align: center;
+     padding-top: 500px;
+     padding-bottom: 80px;
+     font-family : Trebuchet MS;
+     text-indent: 60px;
+ }
 
 
 img {
     display: block;
     margin: auto;
     }
-Try it Yourself »
+
