@@ -1,0 +1,93 @@
+    h1 {
+    	text-align: center;
+    	font-family : Trebuchet MS;
+    	font-size: 60px;
+    	text-shadow: 2px 2px 4px #0F6581;
+    	color: #0F6581;
+    	margin: auto;
+    	padding:0;
+    	height: 200px;
+    	opacity: 70%;
+    	
+
+    }
+
+    div.h {
+    	display: block;
+    	margin-left: 150px;
+    	margin-right: 90px;
+    	padding: 0px;
+    	
+    	
+    }
+
+     div.container {
+     
+     display:inline-block;
+      margin-right:10px; 
+     margin-left:150px;
+     padding: 0px;
+    
+  
+     
+     }
+
+
+img { margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	box-shadow: 10px 10px 5px grey;
+	
+}
+
+.navbar {
+    
+    height: 35px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    background: white;
+
+}
+
+.button {
+    border: none;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 1px 10px 1px 1px;
+    cursor: pointer;
+    border-radius: 12px;
+    top:0;
+    
+}
+
+
+.button1 {
+    background: white;
+ // background: radial-gradient(#ffffff, #ffffff, #cdeffe, #84d9fe); 
+  color: #84d9fe;
+  float: right;
+  border: 2px solid #84d9fe;
+}
+
+.button2 {
+  background: white;
+    // background: radial-gradient(#ffffff, #ffffff,#ffffff, #48c1ea);
+color:#158eb7;
+float: right;
+border: 2px solid #158eb7;}
+
+.button3
+{ 
+    background: white;
+    // background: radial-gradient(#ffffff, #ffffff, #ffffff, #edeef8, #727cca);
+color:#727cca;
+float: right;
+border: 2px solid #727cca;
+margin-right: 20px;
+}
+

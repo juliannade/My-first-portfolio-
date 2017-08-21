@@ -1,4 +1,9 @@
 
+body {
+	padding: 0;
+    margin: 0;
+    
+}
 h1 
 {
   font-family : Trebuchet MS;
@@ -7,10 +12,12 @@ h1
   color : rgb(132, 217, 254);
   text-align: center;
   background-image: url(About.png);
+  background-size: contain
   text-indent: 40px;
+  padding: 0;
+    margin: 0;
+
   }
-
-
 
 
 p {
@@ -18,20 +25,75 @@ p {
     font-family : Trebuchet MS;
   }
   
-div {  
+div.container {  
       background-image: url(Background.png);
       background-repeat: no-repeat;
       background-position: center;
+      background-size: contain
+      height: 200px;
       text-align: center;
+      text-align: top;
      padding-top: 500px;
-     padding-bottom: 80px;
+     padding-bottom: 50px;
      font-family : Trebuchet MS;
      text-indent: 60px;
  }
 
+a:hover {
+	text-decoration: none;
+	color: white;
+}
 
-img {
-    display: block;
-    margin: auto;
-    }
+a {color: black;
+    text-decoration: none
+}
+
+ .navbar {
+    background-color: ##727cca;
+    height: 35px;
+    width: 100%;
+    position: fixed;
+    top:0;
+
+}
+
+.button {
+    border: none;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 1px 10px 1px 1px;
+    cursor: pointer;
+    border-radius: 12px;
+    top:0;
+    
+}
+
+
+.button1 {
+    background: white;
+ // background: radial-gradient(#ffffff, #ffffff, #cdeffe, #84d9fe); 
+  color: #84d9fe;
+  float: right;
+  border: 2px solid #84d9fe;
+}
+
+.button2 {
+  background: white;
+    // background: radial-gradient(#ffffff, #ffffff,#ffffff, #48c1ea);
+color:#158eb7;
+float: right;
+border: 2px solid #158eb7;}
+
+.button3
+{ 
+    background: white;
+    // background: radial-gradient(#ffffff, #ffffff, #ffffff, #edeef8, #727cca);
+color:#727cca;
+float: right;
+border: 2px solid #727cca;
+margin-right: 20px;
+}
 

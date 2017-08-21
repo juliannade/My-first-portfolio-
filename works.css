@@ -1,0 +1,99 @@
+  body {
+    background: linear-gradient(to top, #ffffff 0%, #0f6581 100%);
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    font-family: "Trebuchet MS";
+    font-size: 60px;
+
+  }
+
+ 
+
+  .container {
+    display: inline-block;
+    margin-left: 300px;
+  }
+
+  .art {
+    border: 4px solid white;
+    background: transparent;
+    color: white;
+    font-size: 45px;
+    width: 300px;
+    height: 250px;
+    margin-right: 40px;
+  }
+
+  .promotional {
+    border: 4px solid white;
+    background: transparent;
+    color: white;
+    font-size: 45px;
+    width: 300px;
+    height: 250px;
+    margin-bottom: 45px;
+
+  }
+
+  .art, .promotional {
+    display: inline-block;
+    cursor: pointer;
+    font-family: "Trebuchet MS";
+    margin-top: 40px;
+  }
+
+
+ .navbar {
+    background-color: ##727cca;
+    height: 35px;
+    width: 100%;
+    position: fixed;
+    top:0;
+  }
+
+.button1, .button2, .button3 {
+    border: none;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 1px 10px 1px 1px;
+    cursor: pointer;
+    border-radius: 12px;
+    top:0;
+    
+}
+
+
+.button1 {
+    background: white;
+ // background: radial-gradient(#ffffff, #ffffff, #cdeffe, #84d9fe); 
+  color: #84d9fe;
+  float: right;
+  border: 2px solid #84d9fe;
+}
+
+.button2 {
+  background: white;
+    // background: radial-gradient(#ffffff, #ffffff,#ffffff, #48c1ea);
+color:#158eb7;
+float: right;
+border: 2px solid #158eb7;}
+
+.button3
+{ 
+    background: white;
+    // background: radial-gradient(#ffffff, #ffffff, #ffffff, #edeef8, #727cca);
+color:#727cca;
+float: right;
+border: 2px solid #727cca;
+margin-right: 20px;
+}
