@@ -1,45 +1,69 @@
 h1 {
   font-family : Trebuchet MS;
-  font-size : 60px;
+  font-size : 50px;
   color : #FFFFFF;
   color : rgb(255, 255, 255);
   text-align: center;
- 
+ padding-left: 10px;
+ padding-bottom: 0px;
+ padding-top: 0px;
   
 }
 
-p {
-  text-align: center;
-  font-family : Trebuchet MS;
-  color : #FFFFFF;
-  color : rgb(255, 255, 255);
-  font-size : 30px;
 
-}
-
-body{
-	background-image: url(Contact_background.png);
-	background-size: 1280px 800px;
+body {
+	background-image: url('sunset1.png');
+	background-size:100% 100%;
 	background-repeat: no-repeat;
-	background-position: center;
     padding: 0;
     margin: 0;
+}
+
+
 }
 
 img {
     display: block;
     margin: auto;
+    width: 100%;
  }
 
 
 .form {
-	margin-left: 350px;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin:auto;
+	height: 450px;
+	width:400px;
+	border: 4px blue;
+	color: white;	
+	font-family: Trebuchet MS;
+}
+
+.sunset {
+	height: 160px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    resize: vertical;
 }
 
     .navbar {
-    background-color: ##727cca;
+    
     height: 35px;
     width: 100%;
     position: fixed;
@@ -64,25 +88,30 @@ img {
 
 .button1 {
     background: white;
- // background: radial-gradient(#ffffff, #ffffff, #cdeffe, #84d9fe); 
   color: #84d9fe;
   float: right;
   border: 2px solid #84d9fe;
 }
 
 .button2 {
-  background: white;
-    // background: radial-gradient(#ffffff, #ffffff,#ffffff, #48c1ea);
-color:#158eb7;
-float: right;
+ background: white;
+ color:#158eb7;
+ float: right;
 border: 2px solid #158eb7;}
 
 .button3
 { 
-    background: white;
-    // background: radial-gradient(#ffffff, #ffffff, #ffffff, #edeef8, #727cca);
-color:#727cca;
-float: right;
-border: 2px solid #727cca;
-margin-right: 20px;
+  background: white;
+  color:#727cca;
+  float: right;
+  border: 2px solid #727cca;
+  margin-right: 20px;
 }
+
+.button4 {
+	background: white;
+  color:#bb9fad;
+  border: 2px solid #bb9fad;
+  margin-left: 20px;
+}
+

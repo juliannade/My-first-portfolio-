@@ -1,11 +1,10 @@
 
 body {
 	padding: 0;
-    margin: 0;
-    
+    margin: 0;    
 }
-h1 
-{
+
+h1 {
   font-family : Trebuchet MS;
   font-size : 80px;
   color : #84D9FE;
@@ -16,23 +15,20 @@ h1
   text-indent: 40px;
   padding: 0;
     margin: 0;
-
   }
 
 
 p {
     text-align: center;
     font-family : Trebuchet MS;
+    font-size: 16px;
   }
   
 div.container {  
       background-image: url(Background.png);
       background-repeat: no-repeat;
       background-position: center;
-      background-size: contain
-      height: 200px;
-      text-align: center;
-      text-align: top;
+      background-size: cover;
      padding-top: 500px;
      padding-bottom: 50px;
      font-family : Trebuchet MS;
@@ -49,7 +45,7 @@ a {color: black;
 }
 
  .navbar {
-    background-color: ##727cca;
+    
     height: 35px;
     width: 100%;
     position: fixed;
@@ -74,26 +70,30 @@ a {color: black;
 
 .button1 {
     background: white;
- // background: radial-gradient(#ffffff, #ffffff, #cdeffe, #84d9fe); 
   color: #84d9fe;
   float: right;
   border: 2px solid #84d9fe;
 }
 
 .button2 {
-  background: white;
-    // background: radial-gradient(#ffffff, #ffffff,#ffffff, #48c1ea);
-color:#158eb7;
-float: right;
+ background: white;
+ color:#158eb7;
+ float: right;
 border: 2px solid #158eb7;}
 
 .button3
 { 
-    background: white;
-    // background: radial-gradient(#ffffff, #ffffff, #ffffff, #edeef8, #727cca);
-color:#727cca;
-float: right;
-border: 2px solid #727cca;
-margin-right: 20px;
+  background: white;
+  color:#727cca;
+  float: right;
+  border: 2px solid #727cca;
+  margin-right: 20px;
+}
+
+.button4 {
+	background: white;
+  color:#bb9fad;
+  border: 2px solid #bb9fad;
+  margin-left: 20px;
 }
 

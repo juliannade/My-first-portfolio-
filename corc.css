@@ -3,6 +3,8 @@ p {
 	padding-top: 25px;
 	padding-bottom: 25px;
 	font-size: 20px
+	font-family: Trebuchet MS;
+	color: white;
 }
 
 div.three {
@@ -41,17 +43,18 @@ div.two {
 }
 
 img {
+	width: 100%;
+    height: auto;
 	margin-left: 60px;
 	box-shadow:  2px 2px 5px #999999;
 }
 
  .navbar {
-    
+    background-color: white;
     height: 35px;
     width: 100%;
     position: fixed;
     top:0;
-    background: white;
 
 }
 
@@ -72,25 +75,30 @@ img {
 
 .button1 {
     background: white;
- // background: radial-gradient(#ffffff, #ffffff, #cdeffe, #84d9fe); 
   color: #84d9fe;
   float: right;
   border: 2px solid #84d9fe;
 }
 
 .button2 {
-  background: white;
-    // background: radial-gradient(#ffffff, #ffffff,#ffffff, #48c1ea);
-color:#158eb7;
-float: right;
+ background: white;
+ color:#158eb7;
+ float: right;
 border: 2px solid #158eb7;}
 
 .button3
 { 
-    background: white;
-    // background: radial-gradient(#ffffff, #ffffff, #ffffff, #edeef8, #727cca);
-color:#727cca;
-float: right;
-border: 2px solid #727cca;
-margin-right: 20px;
+  background: white;
+  color:#727cca;
+  float: right;
+  border: 2px solid #727cca;
+  margin-right: 20px;
 }
+
+.button4 {
+	background: white;
+  color:#bb9fad;
+  border: 2px solid #bb9fad;
+  margin-left: 20px;
+}
+

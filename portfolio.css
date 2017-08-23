@@ -12,9 +12,13 @@
 
     }
 
+    p {
+    	color: white;
+    }
+
     div.h {
     	display: block;
-    	margin-left: 150px;
+    	margin-left: 120px;
     	margin-right: 90px;
     	padding: 0px;
     	
@@ -25,7 +29,7 @@
      
      display:inline-block;
       margin-right:10px; 
-     margin-left:150px;
+     margin-left:120px;
      padding: 0px;
     
   
@@ -33,7 +37,10 @@
      }
 
 
-img { margin-bottom: 20px;
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
 	margin-top: 20px;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -42,12 +49,11 @@ img { margin-bottom: 20px;
 }
 
 .navbar {
-    
+    background-color: white;
     height: 35px;
     width: 100%;
     position: fixed;
     top:0;
-    background: white;
 
 }
 
@@ -68,26 +74,30 @@ img { margin-bottom: 20px;
 
 .button1 {
     background: white;
- // background: radial-gradient(#ffffff, #ffffff, #cdeffe, #84d9fe); 
   color: #84d9fe;
   float: right;
   border: 2px solid #84d9fe;
 }
 
 .button2 {
-  background: white;
-    // background: radial-gradient(#ffffff, #ffffff,#ffffff, #48c1ea);
-color:#158eb7;
-float: right;
+ background: white;
+ color:#158eb7;
+ float: right;
 border: 2px solid #158eb7;}
 
 .button3
 { 
-    background: white;
-    // background: radial-gradient(#ffffff, #ffffff, #ffffff, #edeef8, #727cca);
-color:#727cca;
-float: right;
-border: 2px solid #727cca;
-margin-right: 20px;
+  background: white;
+  color:#727cca;
+  float: right;
+  border: 2px solid #727cca;
+  margin-right: 20px;
+}
+
+.button4 {
+	background: white;
+  color:#bb9fad;
+  border: 2px solid #bb9fad;
+  margin-left: 20px;
 }
 
