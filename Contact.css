@@ -20,26 +20,41 @@ body {
 }
 
 
-}
-
 img {
     display: block;
     margin: auto;
-    width: 100%;
+    width: 20%;
+    padding-bottom: 50px;
  }
 
+ a:hover { 
+  text-shadow: 1px 1px 10px white;
+ }
 
-.form {
-	margin:auto;
-	height: 450px;
-	width:400px;
-	border: 4px blue;
-	color: white;	
-	font-family: Trebuchet MS;
+ a {
+  text-decoration: none;
+ }
+
+.icons {
+  padding-top: 50px;
+  margin: auto;
+  width: 10%;
+}
+
+i {
+ color: white;
+ padding: 5px;
+}
+
+p {
+  color: white;
+  font-family: Trebuchet MS;
+  font-size: 20px;
+  text-align: center;
 }
 
 .sunset {
-	height: 160px;
+	height: 400px;
 }
 
 input[type=submit] {
